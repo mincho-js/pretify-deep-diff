@@ -1,0 +1,10 @@
+{
+    "added": "🆕 Added: {path} = {value}",
+    "deleted": "🗑️ Deleted: {path}",
+    "edited": "✏️ Edited: {path} from {oldValue} to {newValue}",
+    "arrayChange": "🔄 Array change at {path} index {index}: {item}",
+    "addedTitle": "🆕 Added:",
+    "deletedTitle": "🗑️ Deleted:",
+    "editedTitle": "✏️ Edited:",
+    "arrayChangeTitle": "🔄 Array Changes:"
+}
