@@ -1,6 +1,6 @@
 {
   "name": "pretify-deep-diff",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility to prettify the results of deep-diff with emojis and localization support.",
   "main": "index.js",
   "types": "index.d.ts",
