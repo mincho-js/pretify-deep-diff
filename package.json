@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "A utility to prettify the results of deep-diff with emojis and localization support.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node test.js"
   },
+  
   "dependencies": {
-    "deep-diff": "^1.0.2"
+    "deep-diff": "^1.0.2",
+    "pretify-deep-diff": "^1.0.0"
   },
   "repository": {
     "type": "git",

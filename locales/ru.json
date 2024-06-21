@@ -1,7 +1,7 @@
 {
     "added": "➕ Добавлено: {path} = {value}",
     "deleted": "❌ Удалено: {path}",
-    "edited": "✏️ Изменено: {path} с {oldValue} на {newValue}",
+    "edited": "✏️ Изменено: {path} с {oldValue} → {newValue}",
     "arrayChange": "🔄 Изменение массива по пути {path} индекс {index}: {item}",
     "addedTitle": "➕ Добавлено:",
     "deletedTitle": "❌ Удалено:",
