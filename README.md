@@ -1,4 +1,3 @@
-
 # pretify-deep-diff
 
 A utility to prettify the results of `deep-diff` with emojis and localization support.
@@ -16,29 +15,29 @@ npm install pretify-deep-diff
 Here's an example of how to use `pretify-deep-diff`:
 
 ```javascript
-const diff = require('deep-diff');
-const pretifyDeepDiff = require('pretify-deep-diff');
+const diff = require("deep-diff");
+const pretifyDeepDiff = require("pretify-deep-diff");
 
 const lhs = {
-    name: 'John',
-    age: 30,
-    pets: ['dog', 'cat'],
-    address: {
-        city: 'Chicago',
-        street: 'Main St'
-    }
+  name: "John",
+  age: 30,
+  pets: ["dog", "cat"],
+  address: {
+    city: "Chicago",
+    street: "Main St",
+  },
 };
 
 const rhs = {
-    name: 'Jane',
-    age: 31,
-    pets: ['dog', 'parrot'],
-    city: 'New York'
+  name: "Jane",
+  age: 31,
+  pets: ["dog", "parrot"],
+  city: "New York",
 };
 
 const changes = diff(lhs, rhs);
 
-console.log(pretifyDeepDiff(changes, { locale: 'ru' }));
+console.log(pretifyDeepDiff(changes, { locale: "ru" }));
 ```
 
 ### Output
@@ -46,10 +45,8 @@ console.log(pretifyDeepDiff(changes, { locale: 'ru' }));
 ```text
  Добавлено:
 ➕ Добавлено: city = "New York"
-
 ❌ Удалено:
 ❌ Удалено: address
-
 ✏️ Изменено:
 ✏️ Изменено: name с "John" на "Jane"
 ✏️ Изменено: age с 30 на 31

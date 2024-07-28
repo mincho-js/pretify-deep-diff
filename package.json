@@ -1,20 +1,19 @@
 {
-  "name": "pretify-deep-diff",
-  "version": "1.0.1",
+  "name": "@mincho-js/pretify-deep-diff",
+  "version": "1.0.5",
   "description": "A utility to prettify the results of deep-diff with emojis and localization support.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "node test.js"
   },
-  
   "dependencies": {
     "deep-diff": "^1.0.2",
-    "pretify-deep-diff": "^1.0.0"
+    "@mincho-js/pretify-deep-diff": "^1.0.5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whoekage/pretify-deep-diff.git"
+    "url": "git+https://github.com/mincho-js/pretify-deep-diff.git"
   },
   "keywords": [
     "deep-diff",
@@ -27,7 +26,7 @@
   "author": "sharkaev.ph@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whoekage/pretify-deep-diff/issues"
+    "url": "https://github.com/mincho-js/pretify-deep-diff/issues"
   },
-  "homepage": "https://github.com/whoekage/pretify-deep-diff#readme"
+  "homepage": "https://github.com/mincho-js/pretify-deep-diff#readme"
 }
